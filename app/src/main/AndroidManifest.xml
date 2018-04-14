@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.gnm.zodiakku">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Tentang"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".BantuanMasukan"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TentangDeveloper"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Coment"
+            android:label=" "
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".home.AriesHome"
+            android:label=" "
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".home.TaurusHome"
+            android:label=" "
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".sekilas.AriesSekilas"
+            android:label=" "
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".sekilas.TaurusSekilas"
+            android:label=" "
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".cewek.AriesCewek"
+            android:label=" "
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".cowok.AriesCowok"
+            android:label=" "
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".asmara.AriesAsmara"
+            android:label=" "
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".keuangan.AriesKeuangan"
+            android:label=" "
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".home.GeminiHome"
+            android:label=" "
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".home.CancerHome"
+            android:label=" "
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".home.LeoHome"
+            android:label=" "
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".home.VirgoHome"
+            android:label=" "
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".home.LibraHome"
+            android:label=" "
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".home.ScorpioHome"
+            android:label=" "
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".home.SagitariusHome"
+            android:label=" "
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".home.CapricornHome"
+            android:label=" "
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".home.AquariusHome"
+            android:label=" "
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".home.PiscesHome"
+            android:label=" "
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".sekilas.GeminiSekilas"
+            android:label=" "
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".sekilas.CancerSekilas"
+            android:label=" "
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".sekilas.LeoSekilas"
+            android:label=" "
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".sekilas.VirgoSekilas"
+            android:label=" "
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".sekilas.LibraSekilas"
+            android:label=" "
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".sekilas.ScorpioSekilas"
+            android:label=" "
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".sekilas.SagitariusSekilas"
+            android:label=" "
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".sekilas.CapricornSekilas"
+            android:label=" "
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".sekilas.AquariusSekilas"
+            android:label=" "
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".sekilas.PiscesSekilas"
+            android:label=" "
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".cewek.TaurusCewek"
+            android:label=" "
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".cewek.GeminiCewek"
+            android:label=" "
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".cewek.CancerCewek"
+            android:label=" "
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".cewek.LeoCewek"
+            android:label=" "
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".cewek.VirgoCewek"
+            android:label=" "
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".cewek.LibraCewek"
+            android:label=" "
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".cewek.ScorpioCewek"
+            android:label=" "
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".cewek.SagitariusCewek"
+            android:label=" "
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".cewek.CapricornCewek"
+            android:label=" "
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".cewek.AquariusCewek"
+            android:label=" "
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".cewek.PiscesCewek"
+            android:label=" "
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".cowok.TaurusCowok"
+            android:label=" "
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".cowok.GeminiCowok"
+            android:label=" "
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".cowok.CancerCowok"
+            android:label=" "
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".cowok.LeoCowok"
+            android:label=" "
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".cowok.VirgoCowok"
+            android:label=" "
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".cowok.LibraCowok"
+            android:label=" "
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".cowok.ScorpioCowok"
+            android:label=" "
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".cowok.SagitariusCowok"
+            android:label=" "
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".cowok.CapricornCowok"
+            android:label=" "
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".cowok.AquariusCowok"
+            android:label=" "
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".cowok.PiscesCowok"
+            android:label=" "
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".asmara.TaurusAsmara"
+            android:label=" "
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".asmara.GeminiAsmara"
+            android:label=" "
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".asmara.CancerAsmara"
+            android:label=" "
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".asmara.LeoAsmara"
+            android:label=" "
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".asmara.VirgoAsmara"
+            android:label=" "
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".asmara.LibraAsmara"
+            android:label=" "
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".asmara.ScorpioAsmara"
+            android:label=" "
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".asmara.SagitariusAsmara"
+            android:label=" "
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".asmara.CapricornAsmara"
+            android:label=" "
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".asmara.AquariusAsmara"
+            android:label=" "
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".asmara.PiscesAsmara"
+            android:label=" "
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".keuangan.TaurusKeuangan"
+            android:label=" "
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".keuangan.GeminiKeuangan"
+            android:label=" "
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".keuangan.CancerKeuangan"
+            android:label=" "
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".keuangan.LeoKeuangan"
+            android:label=" "
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".keuangan.VirgoKeuangan"
+            android:label=" "
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".keuangan.LibraKeuangan"
+            android:label=" "
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".keuangan.ScorpioKeuangan"
+            android:label=" "
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".keuangan.SagitariusKeuangan"
+            android:label=" "
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".keuangan.CapricornKeuangan"
+            android:label=" "
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".keuangan.AquariusKeuangan"
+            android:label=" "
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".keuangan.PiscesKeuangan"
+            android:label=" "
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

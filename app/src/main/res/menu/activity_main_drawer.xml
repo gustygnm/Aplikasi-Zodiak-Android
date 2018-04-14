@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Informasi">
+        <menu>
+            <group android:checkableBehavior="none">
+                <item
+                    android:id="@+id/sub_bantuanMasukan"
+                    android:icon="@drawable/logo_bantuan"
+                    android:title="Bantuan dan Masukan" />
+                <item
+                    android:id="@+id/sub_tentang"
+                    android:icon="@drawable/logo_tentang"
+                    android:title="Tentang">
+
+                </item>
+            </group>
+        </menu>
+    </item>
+
+
+</menu>

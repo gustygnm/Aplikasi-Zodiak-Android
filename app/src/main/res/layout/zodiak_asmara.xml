@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/CoordinatorAtas"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundTab"
+    tools:context="com.gnm.zodiakku.TentangDeveloper">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/app_bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:fitsSystemWindows="true"
+            app:contentScrim="?attr/colorPrimary"
+            app:expandedTitleTextAppearance="@android:color/transparent"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/app_name"
+                android:scaleType="centerCrop"
+                android:src="@drawable/zodiak_asmara"
+                app:layout_collapseMode="parallax" />
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/asmara_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:text=" "
+                app:layout_collapseMode="pin"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+            <TextView
+                android:id="@+id/asmara_titleBar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:gravity="left"
+                android:paddingLeft="20dp"
+                android:paddingTop="15dp"
+                android:text="Asmara Aries"
+                android:textColor="@android:color/white"
+                android:textSize="20dp"
+                app:layout_collapseMode="pin" />
+        </android.support.design.widget.CollapsingToolbarLayout>
+    </android.support.design.widget.AppBarLayout>
+
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/ScrollNested"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                card_view:cardElevation="6dp">
+
+                <LinearLayout
+                    android:id="@+id/layout_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/white"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/asmara_txtJudul"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="?attr/colorPrimary"
+                        android:paddingBottom="5dp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:paddingTop="5dp"
+                        android:text="Jodoh dan Cinta Zodiak Aries"
+                        android:textColor="@android:color/white"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/asmara_isi"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/white"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingTop="10dp"
+                        android:text="Dalam urusan asmara, ramalan bintang Aries memprediksi bahwa kehadiran planet Jupiter pada sektor rumah asmara dan keuangan Anda akan memungkinkan Anda untuk mengambil giliran lebih hedonistik dan menyenangkan selama bulan-bulan ke depan. Zodiak yang berlambang kambing gunung ini juga merindukan kesetaraan dan keseimbangan dalam hubungan intim. Pada November 2017 Jupiter akan mulai memasuki rasi bintang Sagitarius dan Anda akan dapat mengambil stabilitas baru yang terjadi pada hubungan asmara Anda, termasuk juga urusan keuangan. Dengan Jupiter di area Sagitarius, Anda akan dapat mencapai kode baru seluruh hidup. Semua kemajuan dalam kehidupan spiritual dan filosofis Anda akan memungkinkan Anda untuk fokus dalam mengubah karir Anda setelah Jupiter bergerak ke Capricorn di tahun 2019."
+                        android:textColor="@color/text_standar"
+                        android:textSize="15dp" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                card_view:cardElevation="6dp">
+
+                <LinearLayout
+                    android:id="@+id/layout_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/white"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/asmara_txtJudulAsmara_pria"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="?attr/colorPrimary"
+                        android:paddingBottom="5dp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:paddingTop="5dp"
+                        android:text="Asmara Pria Aries"
+                        android:textColor="@android:color/white"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/asmara_txtJudulAsmara_pria_isi"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/white"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingTop="10dp"
+                        android:text="Ketika bicara cinta kamu adalah orang yang agresif, menguasai, energik dan tidak kenal lelah. Kamu impulsive, senang berkhayaldan dinamis, seorang pelaku, selalu tidak yakin apa yang akan dikerjakan selanjutnya. Kamu bisa membuat pasangan tergila-gila jika dia tidak terbiasa dengan energi tinggi yang kamu miliki. Kamu mencari spontanitas dan partner yang imajinatif yang selalu bisa mencari perhatian kamu.Kamu bisa menjadi bed bouncer namun kamu selalu menuntu kesetiaan terhadap pasangan kamu. Kamu akan mudah marah jika sedikit saja ada kecurigaan di pasangan. Kamu cemburu dengan cepat dan perlu apresiasi terus menerus untuk menyelamatkan hubungan."
+                        android:textColor="@color/text_standar"
+                        android:textSize="15dp" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                card_view:cardElevation="6dp">
+
+                <LinearLayout
+                    android:id="@+id/layout_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/white"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/asmara_txtJudulAsmara_wanita"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="?attr/colorPrimary"
+                        android:paddingBottom="5dp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:paddingTop="5dp"
+                        android:text="Asmara Wanita Aries"
+                        android:textColor="@android:color/white"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/asmara_txtJudulAsmara_wanita_isi"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@android:color/white"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingTop="10dp"
+                        android:text="Kamu mungkin kelihatan tidak menyukai pria karena kebebasan yang terlalu ekstrim. Namun, tidak ada yang bisa lari dari kenyataan. Kamu energetik dan jika sudah terangsang, kamu akan agresif secara seksual. Kamu suka mengeluarkan suara ketika bercinta dan di beberapa kasus kamu menyukai binatang liar di ranjang, playful, dan tak kenal takut. Kamu suka menggunakan badan kamu dan cukup atletis baik di dalam atau di luar arena sexual. Kamu seorang romantis, jatuh cinta dengan cinta. Kamu mengakui cinta sebagai salahsatu kesenangan kecil seseorang dalam hidup. Kamu menyukai kebebasan, selalu mencari pecinta, bukan pengasuh. Kamu idealis. Selalu menjalankan apa yang kamu inginkan. Kamu tidak ada masalah menarik perhatian para pria karena kamu selalu tahu yang harus dilakukan. Kamu tidak menguasai uang kamu dengan baik yang dapat menyebabkan masalah terhadap pria yang jatuh cinta kepadamu. Namun kamuberharga untuk setiap rupiah yang dikeluarkan kekasih kamu karena kamu dapat merangsang dia dalam berbagai cara yang tidak bisa dilakukan orang lain."
+                        android:textColor="@color/text_standar"
+                        android:textSize="15dp" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="65dp"
+                android:text="" />
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimaryDark"
+        android:orientation="horizontal"
+        app:layout_anchor="@id/ScrollNested"
+        app:layout_anchorGravity="bottom|right|start">
+
+        <Button
+            android:id="@+id/asmara_btnBack"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_selector_blue"
+            android:gravity="center"
+            android:text="Back"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/asmara_btnNext"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_weight="1"
+            android:background="@drawable/btn_selector_blue"
+            android:gravity="center"
+            android:text="Next"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

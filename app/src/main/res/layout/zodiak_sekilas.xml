@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/CoordinatorAtas"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundTab"
+    tools:context="com.gnm.zodiakku.TentangDeveloper">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/app_bar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:fitsSystemWindows="true"
+            app:contentScrim="?attr/colorPrimary"
+            app:expandedTitleTextAppearance="@android:color/transparent"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed">
+
+            <ImageView
+                android:id="@+id/sekilas_imgCover"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00a8e6"
+                android:contentDescription="@string/app_name"
+                android:scaleType="fitEnd"
+                android:src="@drawable/aries2"
+                app:layout_collapseMode="parallax" />
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/sekilas_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:title="Karakter Aries"
+                app:layout_collapseMode="pin"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
+
+        </android.support.design.widget.CollapsingToolbarLayout>
+    </android.support.design.widget.AppBarLayout>
+
+    <!--<android.support.design.widget.FloatingActionButton-->
+    <!--android:id="@+id/flowLogoZodiak"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_margin="5dp"-->
+    <!--android:src="@drawable/aries"-->
+    <!--app:elevation="6dp"-->
+    <!--app:layout_anchor="@id/app_bar_layout"-->
+    <!--app:layout_anchorGravity="bottom|right|end"-->
+    <!--app:pressedTranslationZ="12dp" />-->
+
+    <!--<android.support.design.widget.FloatingActionButton-->
+    <!--android:id="@+id/btnClose"-->
+    <!--android:layout_width="30dp"-->
+    <!--android:layout_height="30dp"-->
+    <!--android:layout_alignParentRight="true"-->
+    <!--android:layout_alignParentTop="true"-->
+    <!--android:layout_margin="10dp"-->
+    <!--android:src="@drawable/ic_close"/>-->
+
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/ScrollNested"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+            <!--<ImageView-->
+            <!--android:id="@+id/imggaris"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="1dp"-->
+            <!--android:layout_below="@id/imageView3"-->
+            <!--android:layout_marginBottom="20dp"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:layout_marginRight="10dp"-->
+            <!--android:background="@color/text_standar" />-->
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                card_view:cardElevation="6dp">
+
+                <LinearLayout
+                    android:id="@+id/layout_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_id"
+                    android:orientation="vertical"
+                    android:background="@android:color/white">
+
+                    <TextView
+                        android:id="@+id/txtJudulSekilasZodiak"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="?attr/colorPrimary"
+                        android:enabled="false"
+                        android:paddingBottom="5dp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:paddingTop="5dp"
+                        android:text="Karakter"
+                        android:textColor="@android:color/white"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/sekilas_txtKarakter"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingTop="10dp"
+                        android:text="Jika kamu lahir pada tanggal 21 maret hingga 20 april, maka kamu adalah orang-orang yang berada dibawah naungan zodiak aries. Berdasarkan ramalan bintang, aries merupakan pribadi yang dikenal karena kecerobohan yang mereka miliki. Selain itu, sifat aries juga meliputi ambisius, nakal, dan juga kompetitif. Mereka yang berzodiak aries biasanya selalu ingin menjadi yang nomor satu dalam segala hal. Orang-orang ini akan mencoba untuk mendapatkan semuanya dengan cara mereka sendiri bahkan mereka akan rela berbuat apapun dan hal tersebut sering membuatnya berhasil. Selain itu, sifat dan karakter aries adalah pribadi yang cukup menderita dalam urusan percintaan. Mereka umumnya jarang sekali menjalin hubungan dan juga sering melakukan kesalahan dalam hubungan asmara."
+                        android:textSize="15dp" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="10dp"
+                card_view:cardElevation="6dp">
+
+                <LinearLayout
+                    android:id="@+id/layout_1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tv_id"
+                    android:background="@android:color/white"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/txtJudulSekilasZodiak"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="?attr/colorPrimary"
+                        android:enabled="false"
+                        android:paddingBottom="5dp"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:paddingTop="5dp"
+                        android:text="Sifat Utama"
+                        android:textColor="@android:color/white"
+                        android:textSize="16dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/sekilas_txtSifatUtama"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:paddingBottom="3dp"
+                        android:text="Selain itu, aries juga cukup sulit untuk ditaklukkan hatinya namun jika ada orang yang berusaha untuk menaklukkan tersebut adalah yang dihormati atau disukai, maka orang-orang yang berzodiak aries cukup mudah untuk takluk. Jadi, jika aries sulit diatur oleh orang-orang pada umumnya, maka ia hanya bisa diatur oleh seseorang yang benar-benar ia cintai. Sehingga, anda tidak perlu ragu jika kamu mempunyai pasangan berzodiak aries namun terkesan tidak macam-macam dan menurut.\n\nHal ini berarti ia sangat mencintai kamu sebagai pasangannya. Di lingkungan keluarga, aries cukup sulit untuk mengalah khususnya saat terjadi perbedaan pendapat. Mereka akan selalu ingin menang, suka memerintah namun tidak begitu suka jika ia diperintah apalagi jika anggota yang memerintah merupakan orang yang tidak terlalu berpengaruh dalam keluarganya. Keberanian aries saat menghadapi bahaya tidak membuatnya untuk berpikir dua kali saat ia membela orang lain. Hal tersebut akan ia jalani meskipun menjadikannya di posisi yang terancam dan berbahaya."
+                        android:textSize="15dp" />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="65dp"
+                android:text="" />
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimaryDark"
+        android:orientation="horizontal"
+        app:layout_anchor="@id/ScrollNested"
+        app:layout_anchorGravity="bottom|right|start">
+
+        <Button
+            android:id="@+id/sekilas_btnBack"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@drawable/btn_selector_blue"
+            android:gravity="center"
+            android:text="Back"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/sekilas_btnNext"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_weight="1"
+            android:background="@drawable/btn_selector_blue"
+            android:gravity="center"
+            android:text="Next"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>
