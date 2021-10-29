@@ -1,4 +1,6 @@
 # Aplikasi-Zodiak-Android
+
+**Version 0.1**
 Source code Aplikasi ZODIAK Android. 
 
 Aplikasi Zodiac Android. aplikasi ini sangat direkomendasikan bagi para pecinta zodiac. banyak fitur menarik yang dikemas dengan rapih dan bagus dalam aplikasi.
